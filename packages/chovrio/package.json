@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
+  "type": "module",
   "bin": {
     "demo": "./bin/demo.js"
   },
@@ -15,6 +16,14 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/readline-sync": "^1.4.4",
     "commander": "^10.0.0"
+  },
+  "dependencies": {
+    "dotenv": "^16.0.3",
+    "node-ssh": "^13.0.1",
+    "ora": "^6.1.2",
+    "picocolors": "^1.0.0",
+    "readline-sync": "^1.4.10"
   }
 }

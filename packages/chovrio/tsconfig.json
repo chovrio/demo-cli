@@ -1,6 +1,6 @@
 {
   "extends": "./tsconfig.base.json",
-  "include": ["./rollup.config.ts"],
+  "include": ["./rollup.config.ts", "./src/core/index.ts"],
   "compilerOptions": {
     "esModuleInterop": true,
     "declaration": false,
